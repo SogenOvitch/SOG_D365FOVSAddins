@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOG_AutoFillPatternDesign", "SOG_AutoFillPatternDesign\SOG_AutoFillPatternDesign.csproj", "{41BE946B-5B19-4EB4-80C9-79CDC97AE983}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOG_TestingAddin", "SOG_TestingAddin\SOG_TestingAddin.csproj", "{EFAC9F96-F3AF-48AF-BFF0-12DFF83C74DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOG_TestingConsole", "SOG_TestingConsole\SOG_TestingConsole.csproj", "{14AFA29B-8DEA-1675-19EC-69DB869A42CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOG_CreateBatchJob", "SOG_CreateBatchJob\SOG_CreateBatchJob.csproj", "{57E1B74A-DCF7-4302-B0F9-895AEBCD0653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOG_CreateForm", "SOG_CreateForm\SOG_CreateForm.csproj", "{AB998311-65E9-4D56-BFD2-7442914B7216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOG_SharedUtils", "SOG_SharedUtils\SOG_SharedUtils.csproj", "{D98DC53E-DA71-4998-8E9D-9AEBA8550153}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41BE946B-5B19-4EB4-80C9-79CDC97AE983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BE946B-5B19-4EB4-80C9-79CDC97AE983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BE946B-5B19-4EB4-80C9-79CDC97AE983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BE946B-5B19-4EB4-80C9-79CDC97AE983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFAC9F96-F3AF-48AF-BFF0-12DFF83C74DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFAC9F96-F3AF-48AF-BFF0-12DFF83C74DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFAC9F96-F3AF-48AF-BFF0-12DFF83C74DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFAC9F96-F3AF-48AF-BFF0-12DFF83C74DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14AFA29B-8DEA-1675-19EC-69DB869A42CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14AFA29B-8DEA-1675-19EC-69DB869A42CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14AFA29B-8DEA-1675-19EC-69DB869A42CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14AFA29B-8DEA-1675-19EC-69DB869A42CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E1B74A-DCF7-4302-B0F9-895AEBCD0653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E1B74A-DCF7-4302-B0F9-895AEBCD0653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E1B74A-DCF7-4302-B0F9-895AEBCD0653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E1B74A-DCF7-4302-B0F9-895AEBCD0653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB998311-65E9-4D56-BFD2-7442914B7216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB998311-65E9-4D56-BFD2-7442914B7216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB998311-65E9-4D56-BFD2-7442914B7216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB998311-65E9-4D56-BFD2-7442914B7216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98DC53E-DA71-4998-8E9D-9AEBA8550153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98DC53E-DA71-4998-8E9D-9AEBA8550153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98DC53E-DA71-4998-8E9D-9AEBA8550153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98DC53E-DA71-4998-8E9D-9AEBA8550153}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F2C156F-49B0-4696-8040-A36F1EB547C3}
+	EndGlobalSection
+EndGlobal

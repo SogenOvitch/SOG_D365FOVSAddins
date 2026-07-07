@@ -1,0 +1,16 @@
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+[assembly: AssemblyTitle("SOG_TestingAddin")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("SOG_TestingAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2026")]
+
+// Setting ComVisible to false makes the types in this assembly not visible 
+// to COM components.  If you need to access a type in this assembly from 
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(false)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("efac9f96-f3af-48af-bff0-12dff83c74db")]

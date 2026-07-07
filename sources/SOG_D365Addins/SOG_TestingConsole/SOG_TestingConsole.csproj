@@ -1,0 +1,101 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SOG_SharedUtils\SOG_SharedUtils.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Dynamics.AX.Metadata">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.AX.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.AX.Metadata.Core">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.AX.Metadata.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.AX.Metadata.Management.Delta">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.AX.Metadata.Management.Delta.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.AX.Metadata.Modeling">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.AX.Metadata.Modeling.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.AX.Metadata.Patterns">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.AX.Metadata.Patterns.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.AX.Metadata.Storage">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.AX.Metadata.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.AutomationObjects.17.0">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.Framework.Tools.AutomationObjects.17.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.Core.17.0">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.Framework.Tools.Core.17.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.Designers.17.0">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.Framework.Tools.Designers.17.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.Extensibility.17.0">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.Framework.Tools.Extensibility.17.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.FormControlExtension.17.0">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.Framework.Tools.FormControlExtension.17.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.LabelEditor.17.0">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.Framework.Tools.LabelEditor.17.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.Labels.Resolvers">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.Framework.Tools.Labels.Resolvers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.MetaModel.17.0">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.Framework.Tools.MetaModel.17.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.MetaModel.Core.17.0">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.Framework.Tools.MetaModel.Core.17.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.MetaModel.ModelConverter.17.0">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.Framework.Tools.MetaModel.ModelConverter.17.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.ProjectSupport.17.0">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.Framework.Tools.ProjectSupport.17.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Framework.Tools.ProjectSystem.17.0">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\Microsoft.Dynamics.Framework.Tools.ProjectSystem.17.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Internal.VisualStudio.Interop">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\PrivateAssemblies\Microsoft.Internal.VisualStudio.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Internal.VisualStudio.Shell.Framework">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\PrivateAssemblies\Microsoft.Internal.VisualStudio.Shell.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Interop">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Modeling.Sdk">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.Modeling.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Modeling.Sdk.Shell">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.Modeling.Sdk.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Framework">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.Shell.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.Shell.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Threading">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.Threading.17.x\Microsoft.VisualStudio.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Validation">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\oqmold1t.3tl\LanguageServerDependencies\Microsoft.VisualStudio.Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\Microsoft\Web Tools\ServiceHub\PowerPlatform\Cli\System.ServiceModel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
