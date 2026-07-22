@@ -179,19 +179,7 @@ namespace SOG_CreateBatchJob
                             "        //    throw error(strFmt(\"@SYS76877\", strFmt(\"@SYS76498\", tableId2PName(record.TableId), accountNumber)));\r\n" +
                             "        //}\r\n\r\n" +
                             "        // 3 - Success\r\n" +
-                            "        //info(\"@SYS80122\");\r\n\r\n" +
-                            "        //----------------------------\r\n" +
-                            "        // Multi Thread Sample\r\n" +
-                            "        //----------------------------\r\n\r\n" +
-                            "        //BatchHeader header = this.getCurrentBatchHeader();\r\n\r\n" +
-                            "        //if (header) // not null if launched in batch or controller returns true in mustGoBatch\r\n" +
-                            "        //{\r\n" +
-                            "        //    " + nameTextBox.Text + "Controller controller;\r\n\r\n" +
-                            "        //    controller = " + nameTextBox.Text + "Controller::construct();\r\n\r\n" +
-                            "        //    controller.parmDialogCaption();\r\n\r\n" +
-                            "        //    header.addTask(controller);\r\n\r\n" +
-                            "        //    header.save();\r\n" +
-                            "        //}\r\n" +
+                            "        //info(\"@SYS80122\");\r\n" +
                             "    }"
                     }
                 }
@@ -214,7 +202,7 @@ namespace SOG_CreateBatchJob
                             "        super(classStr(" + serviceClass.Name + "),\r\n" +
                             "            methodStr(" + serviceClass.Name + ", process),\r\n" +
                             "            _executionMode);\r\n" +
-                            "    }"
+                            "    }\r\n"
                     },
                     new AxMethod()
                     {
@@ -223,7 +211,7 @@ namespace SOG_CreateBatchJob
                             "    public ClassDescription defaultCaption()\r\n" +
                             "    {\r\n" +
                             "        return \"" + labelFileName + labelId + "\";\r\n" +
-                            "    }"
+                            "    }\r\n"
                     },
                     new AxMethod()
                     {
@@ -234,7 +222,7 @@ namespace SOG_CreateBatchJob
                             "        " + nameTextBox.Text + "Controller controller;\r\n\r\n" +
                             "        controller = new " + nameTextBox.Text + "Controller(_executionMode);\r\n\r\n" +
                             "        return controller;\r\n" +
-                            "    }"
+                            "    }\r\n"
                     },
                     new AxMethod()
                     {
@@ -251,6 +239,8 @@ namespace SOG_CreateBatchJob
                             "        {\r\n" +
                             "            controller = " + nameTextBox.Text + "Controller::construct();\r\n" +
                             "        }\r\n" +
+                            "        \r\n" +
+                            "        //" + nameTextBox.Text + "Contract contract = controller.getDataContractObject();\r\n" +
                             "        \r\n" +
                             "        // If not set, sets caption to defaultCaption()\r\n" +
                             "        controller.parmDialogCaption();\r\n" +
